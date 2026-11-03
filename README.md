@@ -2,7 +2,7 @@
 
 本项目面向 FPGA 创新设计竞赛，基于 Sipeed Tang Nano 9K（Gowin GW1NR-9C）实现完整的数字图像处理与 HDMI 显示系统。输入图像经片上 ROM 解码后写入板载 PSRAM，并由 RTL 流水线完成灰度化、高斯滤波、Sobel 边缘检测等处理，最终以四分屏方式通过 HDMI 展示原图及处理结果。
 
-![板上运行效果](docs/board_demo.jpg)
+![板上运行效果](board_demo.jpg)
 
 ## 主要功能
 
@@ -68,8 +68,8 @@ RLE ROM 图像数据
 ## 构建工程
 
 1. 安装 Gowin EDA，并确认器件库中包含 `GW1NR-9C`。
-2. 克隆本仓库。
-3. 使用 Gowin EDA 打开 `FPGA_Image_Process.gprj`。
+2. 下载并解压 `TangNano9K_FPGA_Image_Processing_Full_Project.zip`。
+3. 使用 Gowin EDA 打开压缩包中的 `FPGA_Image_Process.gprj`。
 4. 检查顶层模块为 `nano9k_image_process_quad_v2_top`。
 5. 执行综合、布局布线并生成 Bitstream。
 6. 使用 Gowin Programmer 将生成的 `.fs` 文件下载至开发板。
@@ -93,11 +93,10 @@ RLE ROM 图像数据
 
 ## 文档与结果
 
-- [竞赛作品报告](docs/competition_report.pdf)
-- [上板测试验收报告](docs/hardware_validation_report.pdf)
-- [项目海报](docs/project_poster.pdf)
-- [Gowin Programmer 下载成功截图](docs/programming_success.png)
-- [综合与实现报告](reports/implementation/)
+- [完整工程源码、固件、仿真及实现报告](TangNano9K_FPGA_Image_Processing_Full_Project.zip)
+- [竞赛作品报告](competition_report.pdf)
+- [上板测试验收报告](hardware_validation_report.pdf)
+- [项目海报](project_poster.pdf)
 
 ## 第三方代码与工具使用说明
 
