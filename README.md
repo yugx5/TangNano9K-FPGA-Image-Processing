@@ -2,7 +2,7 @@
 
 本项目面向 FPGA 创新设计竞赛，基于 Sipeed Tang Nano 9K（Gowin GW1NR-9C）实现完整的数字图像处理与 HDMI 显示系统。输入图像经片上 ROM 解码后写入板载 PSRAM，并由 RTL 流水线完成灰度化、高斯滤波、Sobel 边缘检测等处理，最终以四分屏方式通过 HDMI 展示原图及处理结果。
 
-![板上运行效果](board_demo.jpg)
+![板上运行效果](board_demo_v2.jpg)
 
 ## 主要功能
 
