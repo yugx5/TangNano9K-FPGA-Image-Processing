@@ -62,7 +62,7 @@ RLE ROM 图像数据
 │   ├── tb/                   # Verilog Testbench
 │   └── modelsim/             # ModelSim 运行脚本
 ├── reports/implementation/   # 综合、布局布线、功耗报告
-└── docs/                     # 作品报告、验收报告、海报和实物照片
+└── docs/                     # 作品报告、海报和实物照片
 ```
 
 ## 构建工程
@@ -95,7 +95,6 @@ RLE ROM 图像数据
 
 - [完整工程源码、固件、仿真及实现报告](TangNano9K_FPGA_Image_Processing_Full_Project.zip)
 - [竞赛作品报告](competition_report.pdf)
-- [上板测试验收报告](hardware_validation_report.pdf)
 - [项目海报](project_poster.pdf)
 
 ## 第三方代码与工具使用说明
